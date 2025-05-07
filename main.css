@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#title {
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+}
+#input {
+    padding: 3px;
+    width: 40vw;
+}
+#horizontalPadding {
+    height: 90px;
+}
+#index {
+    width: min-content;
+    height: min-content;
+    padding: 0 0 200px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
