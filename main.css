@@ -2,9 +2,22 @@
     margin: 0;
     padding: 0;
 }
+p {
+    font-family: sans-serif;
+}
+#bvvdJump {
+    color: #ffffff;
+    cursor: default;
+}
+#bvvd {
+    z-index: 2;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    bottom: 50vh;
+}
 #title {
     font-size: 50px;
-    font-family: sans-serif;
     text-align: center;
 }
 #input {
@@ -32,4 +45,11 @@
     padding: 10px;
     bottom: 0;
     left: 0;
+}
+@keyframes bvvdOut {
+    0% {
+        left: -300px;
+    } 100% {
+        left: 100vw;
+    }
 }

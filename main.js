@@ -1,4 +1,5 @@
 const input = document.getElementById("input");
+const bvvd = document.getElementById("bvvd");
 let inputString;
 
 let isMusicPlaying = false, musicPlayed;
@@ -72,4 +73,13 @@ function pauseMusic() {
     if (debugIsON) {
         Cout("调试: isMusicPlaying 为 " + isMusicPlaying + " , musicPlayed 为 " + musicPlayed.src);
     }
+}
+
+function bvvdOut() {
+    bvvd.hidden = false;
+    bvvd.style = "animation: 1.5s ease-in-out bvvdOut";
+    setTimeout(() => {
+        bvvd.hidden = true;
+        bvvd.style = undefined;
+    }, 1500);
 }
